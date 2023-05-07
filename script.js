@@ -10,8 +10,9 @@ function firstNonRepeatingCharacter(str){
     //loop through the string again and retur nthe first non-repeated character.
     for(let i=0;i<str.length;i++){
         const char = str[i];
-        if(charCount === 1){
+        if(charCount[char]=== 1){
             return char;
+			
         }
     }
     // if there is non-repeated character, return null.
